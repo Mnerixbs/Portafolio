@@ -1,0 +1,103 @@
+@font-face {
+    font-family: Teko-Bold;
+    src: url(../fonts/Teko-Bold.ttf);
+}
+@font-face {
+    font-family: Teko-Regular;
+    src: url(../fonts/Teko-Regular.ttf);
+}
+@font-face {
+    font-family: TrainOne-Regular;
+    src: url(../fonts/TrainOne-Regular.ttf);
+}
+a{
+    text-decoration: none;
+}
+.Tekob{
+    font-family: Teko-Bold;
+}
+.Tekor{
+    font-family: Teko-Regular;
+}
+.Train{
+    font-family: TrainOne-Regular;
+}
+.morado{
+    color: #b52ad9;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+
+#main{
+    background: rgb(7,0,105);
+    background: linear-gradient(180deg, rgba(7,0,105,1) 0%, rgba(1,0,15,1) 50%, rgba(0,0,0,1) 100%);
+}
+#main .container{
+    height: 100vh;
+    background-image: url(../images/backgroud.svg);        
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+.cd-m{
+    margin-bottom: 100px;
+}
+#main h4{
+    color: black;
+}
+.dpn{
+    display: none;
+}
+.dpb{
+    display: block;
+}
+.card {   
+    color: white;
+    background-color: #fff0;
+    background-clip: border-box;
+    border: 2px solid #00000042;
+    border-radius: .45rem;
+}
+.card:hover{
+    border: 2px solid black;
+    transition: all 0.5s ease-in-out;
+    color: black;
+    transform: scale(1.1, 1.1);   
+}
+.card:hover h1{
+    font-size: 50px;
+    transition: all 0.5s ease-in-out;
+}
+#card-port{
+    color: white;
+    background-color: #fff0;
+    background-clip: border-box;
+    border: 2px solid white;
+    border-radius: .45rem;
+}
+#card-port:hover{
+    transition: all 0.5s ease-in-out;
+    transform: scale(0.9);   
+}
+.card-img-top{
+ height: 150px;
+}
+.modal-content{
+    color: white;
+    background: rgb(7,0,105);
+    background: linear-gradient(180deg, rgba(7,0,105,1) 0%, rgba(1,0,15,1) 50%, rgba(0,0,0,1) 100%);
+}
+.btn-close{
+    background: url(../images/icon-close.svg);
+    opacity: 1;
+    width: 1em;
+    height: 1em;
+    background-size: cover;
+}
+@media (max-width: 992px) {         
+    .card{
+        margin-bottom: 20px;
+    }  
+    
+ }
