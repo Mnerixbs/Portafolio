@@ -13,147 +13,165 @@
   </head>
   <body>
 
-   
-    <main id="main">     
-      <div class="container d-flex align-items-center">
-        <div class="row " id="row1 ">    
-         <div class="  col-lg-4 d-lg-flex align-items-lg-center order-2 order-lg-1 order-sm-2 ">
+  <main id="main">
+    <div class="container d-flex align-items-center">
+      <div class="row m-auto" id="row1 ">    
+       <div class="col-lg-4 d-lg-flex align-items-lg-center order-2 order-lg-1 order-sm-2 ">
+        <a class="m-auto" data-bs-toggle="modal" data-bs-target="#modalporta"> 
+          <div class="card text-center " >
+            <div class="card-body">
+              <h5 class="card-title Train ">Portafolio</h5>       
+            </div>
+          </div>
+        </a>
+        </div>
+        <div class=" col-lg-4 order-1 order-sm-1 order-lg-2">
+          <div class="card text-center cd-m" >
+            <div class="card-body">     
+              <h1 class="Train text-center">MARIO RICO</h1>       
+            </div>
+          </div>
+          <a data-bs-toggle="modal" data-bs-target="#modalsobre">
             <div class="card text-center" >
               <div class="card-body">
-                <h5 class="card-title">Portafolio</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Ver Portafolio</a>
+                <h5 class="card-title Train">Sobre mí</h5>           
               </div>
             </div>
-          </div>
-          <div class="col-lg-4 order-1 order-sm-1 order-lg-2">
-            <div class="card text-center cd-m" >
-              <div class="card-body">     
-                <h1 class="Train text-center">MARIO RICO</h1>       
-              </div>
-            </div>
-            <div class="card text-center" >
+          </a>
+        </div>
+        <div class="col-lg-4 d-lg-flex align-items-lg-center order-3 order-sm-3 order-lg-3">
+          <a href="mailto:xbsneri@gmail.com" class="m-auto">
+            <div class="card text-center " >
               <div class="card-body">
-                <h5 class="card-title">Sobre mí</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title Train ">Contacto</h5>          
               </div>
             </div>
-          </div>
-          <div class="col-lg-4 d-lg-flex align-items-lg-center order-3 order-sm-3 order-lg-3">
-            <div class="">
-              <div class="card text-center" >
-                <div class="card-body">
-                  <h5 class="card-title">Contacto</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
+          </a>
+        </div>
+      </div>        
+      <div class="modal fade" id="modalporta" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title Train " id="staticBackdropLabel">Portafolio</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-          </div>
-        </div>        
-        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-          <div class="modal-dialog modal-fullscreen">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title Train " id="staticBackdropLabel">Portafolio</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <div class="conatiner-fluid">
-                  <div class="row">                     
-                    <div class="col-lg-3 col-md-4 pb-4">
-                      <a href="http://creativemediadesign.com.mx/" target="_blank">
-                        <div class="card" id="card-port">
-                          <img src="/images/cmd.PNG" class="card-img-top" >
-                          <div class="card-body">
-                            <h5 class="card-title text-center Train">Creative media design</h5>
-                          </div>
+            <div class="modal-body">
+              <div class="conatiner-fluid">
+                <div class="row">                     
+                  <div class="col-lg-3 col-md-4 pb-4">
+                    <a href="http://creativemediadesign.com.mx/" target="_blank">
+                      <div class="card" id="card-port">
+                        <img src="/images/cmd.PNG" class="card-img-top" >
+                        <div class="card-body">
+                          <h5 class="card-title text-center Train">Creative media design</h5>
                         </div>
-                      </a>                      
-                    </div>   
-                    <div class="col-lg-3 col-md-4 pb-4">
-                      <a href="http://pinkypromiseparty.com/" target="_blank">
-                        <div class="card" id="card-port">
-                          <img src="/images/pinky.PNG" class="card-img-top" >
-                          <div class="card-body">
-                            <h5 class="card-title text-center Train">Pinky promise</h5>
-                          </div>
+                      </div>
+                    </a>                      
+                  </div>   
+                  <div class="col-lg-3 col-md-4 pb-4">
+                    <a href="http://pinkypromiseparty.com/" target="_blank">
+                      <div class="card" id="card-port">
+                        <img src="/images/pinky.PNG" class="card-img-top" >
+                        <div class="card-body">
+                          <h5 class="card-title text-center Train">Pinky promise</h5>
                         </div>
-                      </a>                      
-                    </div>  
-                    <div class="col-lg-3 col-md-4 pb-4">
-                      <a href="http://codigofn.mx/" target="_blank">
-                        <div class="card" id="card-port">
-                          <img src="/images/codigofn.PNG" class="card-img-top" >
-                          <div class="card-body">
-                            <h5 class="card-title text-center Train">Codigo fn</h5>
-                          </div>
+                      </div>
+                    </a>                      
+                  </div>  
+                  <div class="col-lg-3 col-md-4 pb-4">
+                    <a href="http://codigofn.mx/" target="_blank">
+                      <div class="card" id="card-port">
+                        <img src="/images/codigofn.PNG" class="card-img-top" >
+                        <div class="card-body">
+                          <h5 class="card-title text-center Train">Codigo fn</h5>
                         </div>
-                      </a>                      
-                    </div>  
-                    <div class="col-lg-3 col-md-4 pb-4">
-                      <a href="http://novaproject.mx/" target="_blank">
-                        <div class="card" id="card-port">
-                          <img src="/images/nova.PNG" class="card-img-top" >
-                          <div class="card-body">
-                            <h5 class="card-title text-center Train">Nova project</h5>
-                          </div>
+                      </div>
+                    </a>                      
+                  </div>  
+                  <div class="col-lg-3 col-md-4 pb-4">
+                    <a href="http://novaproject.mx/" target="_blank">
+                      <div class="card" id="card-port">
+                        <img src="/images/nova.PNG" class="card-img-top" >
+                        <div class="card-body">
+                          <h5 class="card-title text-center Train">Nova project</h5>
                         </div>
-                      </a>                      
-                    </div> 
-                    <div class="col-lg-3 col-md-4 pb-4">
-                      <a href="https://www.donjuancerveza.com/" target="_blank">
-                        <div class="card" id="card-port">
-                          <img src="/images/donjuan.PNG" class="card-img-top" >
-                          <div class="card-body">
-                            <h5 class="card-title text-center Train">Don juan</h5>
-                          </div>
+                      </div>
+                    </a>                      
+                  </div> 
+                  <div class="col-lg-3 col-md-4 pb-4">
+                    <a href="https://www.donjuancerveza.com/" target="_blank">
+                      <div class="card" id="card-port">
+                        <img src="/images/donjuan.PNG" class="card-img-top" >
+                        <div class="card-body">
+                          <h5 class="card-title text-center Train">Don juan</h5>
                         </div>
-                      </a>                      
-                    </div>     
-                    <div class="col-lg-3 col-md-4 pb-4">
-                      <a href="https://markenone.com/" target="_blank">
-                        <div class="card" id="card-port">
-                          <img src="/images/markenone.PNG" class="card-img-top" >
-                          <div class="card-body">
-                            <h5 class="card-title text-center Train">Marken one</h5>
-                          </div>
+                      </div>
+                    </a>                      
+                  </div>     
+                  <div class="col-lg-3 col-md-4 pb-4">
+                    <a href="https://markenone.com/" target="_blank">
+                      <div class="card" id="card-port">
+                        <img src="/images/markenone.PNG" class="card-img-top" >
+                        <div class="card-body">
+                          <h5 class="card-title text-center Train">Marken one</h5>
                         </div>
-                      </a>                      
-                    </div>            
-                    <div class="col-lg-3 col-md-4 pb-4">
-                      <a href="https://clipboard-landing-page-blue.vercel.app/" target="_blank">
-                        <div class="card" id="card-port">
-                          <img src="/images/Clipboard.PNG" class="card-img-top" >
-                          <div class="card-body">
-                            <h5 class="card-title text-center Train">Clipboard landing page</h5>
-                          </div>
+                      </div>
+                    </a>                      
+                  </div>            
+                  <div class="col-lg-3 col-md-4 pb-4">
+                    <a href="https://clipboard-landing-page-blue.vercel.app/" target="_blank">
+                      <div class="card" id="card-port">
+                        <img src="/images/Clipboard.PNG" class="card-img-top" >
+                        <div class="card-body">
+                          <h5 class="card-title text-center Train">Clipboard landing page</h5>
                         </div>
-                      </a>                      
-                    </div>
-                    <div class="col-lg-3 col-md-4 pb-4">
-                      <a href="https://bookmark-challenge-kappa.vercel.app/" target="_blank">
-                        <div class="card" id="card-port">
-                          <img src="/images/Bookmark.PNG" class="card-img-top" >
-                          <div class="card-body">
-                            <h5 class="card-title text-center Train">Bookmark</h5>
-                          </div>
-                        </div>
-                      </a>                      
-                    </div>
-                   
-                       
+                      </div>
+                    </a>                      
                   </div>
+                  <div class="col-lg-3 col-md-4 pb-4">
+                    <a href="https://bookmark-challenge-kappa.vercel.app/" target="_blank">
+                      <div class="card" id="card-port">
+                        <img src="/images/Bookmark.PNG" class="card-img-top" >
+                        <div class="card-body">
+                          <h5 class="card-title text-center Train">Bookmark</h5>
+                        </div>
+                      </div>
+                    </a>                      
+                  </div>               
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>  
-       
-    </main>
-    
+      </div>
+
+      <div class="modal fade" id="modalsobre" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title Train" id="exampleModalLabel">Sobre mí</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="container-fluid">
+                <div class="row">
+                  <img src="images/LogoW.svg" class=" mx-auto d-block img-fluid logo" alt="Mario Rico">
+                  <h1 class="text-center"><span class="dorado">Soy</span> Mario Rico </h1>
+                  <h4 >Web developer</h4>
+                </div>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+        
+      </div>
+      
+    </div>  
+   
+  </main>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 
   
